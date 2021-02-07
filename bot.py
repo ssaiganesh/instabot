@@ -1,8 +1,8 @@
 from instabot import Bot
-import glob, os
-from login import myusername, mypassword
-#### remove json file 
+import glob, os 
+from login import myusername, mypassword #requires separate python file
 
+#### remove json file 
 try:
     os.remove('config')
 except:
